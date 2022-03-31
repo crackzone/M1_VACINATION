@@ -20,12 +20,12 @@ src/loadData.c \
 src/update_data_file.c \
 src/delete_patient.c \
 src/delete_rec_file.c \
-src/delete_all.c
+src/delete_all.c\
 
 
 
 # All test source files
-TEST_SRC =  test/test.c \
+TEST_SRC =test/test.c \
 unit/unity.c \
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).exe
