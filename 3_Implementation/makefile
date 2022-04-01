@@ -1,4 +1,4 @@
-.# Name of the project
+# Name of the project
 PROJECT_NAME = vaccine
 
 # Output directory
@@ -20,12 +20,12 @@ src/loadData.c \
 src/update_data_file.c \
 src/delete_patient.c \
 src/delete_rec_file.c \
-src/delete_all.c\
+src/delete_all.c
 
 
 
 # All test source files
-TEST_SRC =test/test.c \
+TEST_SRC =  test/test.c \
 unit/unity.c \
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).exe
@@ -64,8 +64,8 @@ run:$(PROJECT_NAME)
 
 # Build and run the unit tests
 test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
-	./$(TEST_OUTPUT)
+	 gcc -I $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
+	 ./$(TEST_OUTPUT).exe
 #Coverage
 coverageCheck:$(BUILD)
 	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
