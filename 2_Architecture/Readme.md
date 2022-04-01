@@ -13,6 +13,6 @@
 
 ### Package Diagram
 
-![PackageDiagram](https://github.com/arc-arnob/LnT_Mini_Project/blob/main/2_Design/package%20diagram.png)
+![PackageDiagram](https://github.com/crackzone/M1_VACINATION/blob/main/2_Architecture/package%20diagram.png)
 ### State Diagram :
-![State Diagram](https://github.com/arc-arnob/LnT_Mini_Project/blob/main/2_Design/state%20diagram.png)
+![State Diagram](https://github.com/crackzone/M1_VACINATION/blob/main/2_Architecture/state%20diagram.png)
