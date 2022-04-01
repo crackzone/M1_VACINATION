@@ -1,4 +1,4 @@
-name: C/C++ CI - Build Status
+name: Build CI - Linux
 
 on:
   push:
@@ -13,5 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: make
-      run: make -C 3_implementation/ all
+    - name: Build
+      run: make -C 3_Implementation
+   
