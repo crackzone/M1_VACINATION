@@ -35,3 +35,12 @@
 |  L_04       |H_07,H_08|if data is loaded from file during startup then writing of file should begin from the start of file |(1). File pointers (2). Head Pointer (3). Flag |SUCCESS | SUCCESS |Technical|
 |  L_05       |H_06|If there is only one node in list then deletion from beginning algorithm should work |(1). File pointers | SUCCESS | SUCCESS  |Technical|
 |  L_06       |H_06|If first node is being deleted then deletion from beginning algorithm should work |(1). File pointers | SUCCESS | SUCCESS  |Technical|
+
+# output
+
+### make all
+![Banner](https://github.com/crackzone/M1_VACINATION/blob/main/4_TestPlanAndOutput/make%20all.png)
+### make run
+![Banner](https://github.com/crackzone/M1_VACINATION/blob/main/4_TestPlanAndOutput/make%20run.png)
+### make clean
+![Banner](https://github.com/crackzone/M1_VACINATION/blob/main/4_TestPlanAndOutput/make%20clean.png)
